@@ -31,9 +31,9 @@ private:
 };
 
 int main() {
-    Solution solution;
+    Solution solution; //class create and object create.
     vector<int> nums = {1, 2, 3};
-     vector<std::vector<int>> output = solution.permute(nums);
+     vector<vector<int>> output = solution.permute(nums);
 
     // Print the result
     for (const auto& permutation : output) {
